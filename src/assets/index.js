@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./Logo.png";
 
 /*header*/
 import logo_header from "./Logo-header.svg";
