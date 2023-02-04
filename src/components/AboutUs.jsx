@@ -1,6 +1,6 @@
 import styles from '../style';
 import {aboutUs} from '../constants';
-import { facial1 } from '../assets';
+import { facial1, bg2 } from '../assets';
 
 const AboutUsCard = ({id, image, title}) =>(
   <div className='flex flex-col items-center justify-center max-w-[165px] max-h-[180px] p-2 border-[1px] border-darkGreen bg-white gap-[14px]'>
@@ -23,8 +23,9 @@ const AboutUs = () => (
       </div>
     </div>
 
-    <div>
-      <img src={facial1} alt="" className='object-contain sm:h-[596px] sm:w-[614px]' />
+    <div className='relative bottom-4 sm:py-0 py-8'>
+      <img src={bg2} alt="" className='absolute object-contain sm:h-[576px] sm:w-[500px] z-10' />
+      <img src={facial1} alt="" className='top-8 right-8 relative object-contain sm:h-[576px] sm:w-[500px] z-20 shadow-[0px_-6px_25px_rgba(0,0,0,0.3)]' />    
     </div>
 
   </section>

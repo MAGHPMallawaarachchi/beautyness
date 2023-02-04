@@ -10,7 +10,6 @@ import twitter from "./twitter.png";
 import instagram from "./instagram.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import bg from "./bg.png";
 import bg1 from "./bg1.jpg";
 
 /*hero*/
@@ -27,6 +26,7 @@ import facial1 from "./facial.jpg";
 import icon1 from "./experts.png";
 import icon2 from "./great-services.svg";
 import icon3 from "./genuine.png";
+import bg2 from "./bg2.jpg";
 
 /*services*/
 import two_girls from "./two-girls.jpg";
@@ -84,7 +84,7 @@ export{
     logo_footer,
     menu,
     close,
-    bg,
     bg1,
+    bg2,
 };
 
