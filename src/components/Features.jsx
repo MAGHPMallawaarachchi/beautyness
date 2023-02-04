@@ -14,8 +14,8 @@ const FeatureCard = ({id, image, title, content}) => (
 )
 
 const Features = () => (
-  <section className={`${styles.paddingX} ${styles.paddingY} flex justify-center`}>
-    <div className='gap-[105px] md:flex hidden'>
+  <section className={`sm:px-16 ${styles.paddingX} ${styles.paddingY} flex justify-center`}>
+    <div className='gap-[105px] flex'>
       {features.map((feature, index)=>(
         <FeatureCard key={feature.id}{...feature}/>
       ))}
