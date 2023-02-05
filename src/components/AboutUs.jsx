@@ -25,8 +25,8 @@ const AboutUs = () => (
     </div>
 
     <div className='relative bottom-4 sm:py-0 py-8'>
-      <img src={bg2} alt="" className='absolute object-contain sm:h-[576px] sm:w-[500px] z-10' />
-      <img src={facial1} alt="" className='relative top-8 right-8  object-contain sm:h-[576px] sm:w-[500px] z-20 shadow-2xl ' />    
+      <img src={bg2} alt="" className='absolute left-4 top-4 sm:left-0 sm:top-0 object-contain sm:h-[576px] sm:w-[500px] z-10' />
+      <img src={facial1} alt="" className='relative top-4 right-4 sm:top-8 sm:right-8 object-contain sm:h-[576px] sm:w-[500px] z-20 shadow-2xl ' />    
     </div>
 
   </section>
