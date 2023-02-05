@@ -3,7 +3,7 @@ import { exclamation, bg1, main } from '../assets';
 
 const Hero = () => (
 
-  <section className={`flex md:flex-row flex-col ${styles.paddingX} ${styles.paddingY} justify-start items-center md:gap-[119px] gap-[50px] pb-10`}>
+  <section className={`flex md:flex-row flex-col ${styles.paddingX} ${styles.paddingY} justify-start items-center md:gap-[90px] gap-[50px] pb-10`}>
 
       <div className='flex flex-col gap-[16px]'>
         <div className='flex sm:gap-3 gap-2 items-center'>
@@ -25,7 +25,7 @@ const Hero = () => (
 
       <img src={main} alt="" className='max-h-[545px] max:w-[550px] shadow-2xl' />
 
-      <div className='object-contain md:flex hidden absolute left-[50%] border-y-[10px] border-r-[10px] border-lightBlue h-[650px] w-[650px] mr-10'>
+      <div className='object-contain lg:flex hidden absolute left-[50%] border-y-[10px] border-r-[10px] border-lightBlue h-[650px] w-[650px] mr-10'>
 
       </div>
 
