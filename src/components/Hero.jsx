@@ -23,7 +23,7 @@ const Hero = () => (
         </div>
       </div>
 
-      <img src={main} alt="" className='max-h-[545px] max:w-[550px] shadow-2xl' />
+      <img src={main} alt="" height="545px" width="550px" className='shadow-2xl' />
 
       <div className='object-contain lg:flex hidden absolute left-[50%] border-y-[10px] border-r-[10px] border-lightBlue h-[650px] w-[650px] mr-10'>
 

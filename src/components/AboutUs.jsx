@@ -12,7 +12,7 @@ const AboutUsCard = ({id, image, title}) =>(
 const AboutUs = () => (
   <section id='AboutUs' className={`flex md:flex-row flex-col bg-lightBlue ${styles.paddingX} ${styles.paddingY} md:gap-[119px] gap-[50px] justify-center items-center`}>
     
-    <div className='flex flex-col gap-[16px]'>
+    <div className='flex flex-col gap-[16px] md:pb-0 pb-8'>
       <p className='font-manrope uppercase sm:text-[15px] text-[12px] font-semibold text-dullBlue2 leading-[154.5%] tracking-[0.1em]'>about us</p>
       <h1 className={`${styles.heading2}`}>The Beauty is about <br /> being Comfortable <br /> in your own skin!</h1>
       <p className={`${styles.paragraph} xs:max-w-[529px] max-w-[309px]`}>Our beauty salon is dedicated to providing luxurious, personalized experiences for each of our clients. Our highly trained professionals use only the best products to bring out your natural beauty. Come in for a pampering session today and leave feeling refreshed and beautiful.</p>
@@ -24,9 +24,9 @@ const AboutUs = () => (
       </div>
     </div>
 
-    <div className='relative bottom-4 sm:py-0 py-8'>
-      <img src={bg2} alt="" className='absolute left-4 top-4 sm:left-0 sm:top-0 object-contain sm:h-[576px] sm:w-[500px] z-10' />
-      <img src={facial1} alt="" className='relative top-4 right-4 sm:top-8 sm:right-8 object-contain sm:h-[576px] sm:w-[500px] z-20 shadow-2xl ' />    
+    <div className='relative'>
+      <img src={bg2} alt="" height="576px" width="500px" className='absolute object-contain left-4 bottom-4 z-10' />
+      <img src={facial1} alt="" height="576px" width="500px" className='relative right-4 top-4 object-contain z-20 shadow-2xl ' />    
     </div>
 
   </section>

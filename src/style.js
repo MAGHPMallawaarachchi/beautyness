@@ -11,8 +11,8 @@ const styles = {
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
   
-    paddingX: "md:px-16 px-6",
-    paddingY: "md:py-40 py-12",
+    paddingX: "sm:px-16 px-6",
+    paddingY: "sm:py-40 py-12",
     paddingY1: "sm:py-[165px] py-[6]",
     padding: "sm:px-16 px-6 sm:py-12 py-4",
   
