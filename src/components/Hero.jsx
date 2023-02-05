@@ -3,9 +3,9 @@ import { exclamation, bg1, main } from '../assets';
 
 const Hero = () => (
 
-  <section className={`w-full flex md:flex-row flex-col justify-end items-center md:gap-36 gap-0`}>
+  <section className={`flex md:flex-row flex-col ${styles.paddingX} ${styles.paddingY} justify-start items-center md:gap-[119px] gap-[50px] pb-10`}>
 
-      <div className='flex flex-col px-16 py-16'>
+      <div className='flex flex-col gap-[16px]'>
         <div className='flex sm:gap-3 gap-2 items-center'>
           <img src={exclamation} alt="exclamation" className='ss:w-[20px] ss:h-[20px] w-[13px] h-[13px]' />
           <p className='uppercase font-manrope font-semibold text-dullBlue2 tracking-[0.1em] ss:text-[15px] text-[10px]'>Welcome to Beautyness!!!</p>
@@ -23,15 +23,22 @@ const Hero = () => (
         </div>
       </div>
 
-      <div className='w-full md:w-[45%] md:h-[900px] md:pt-0 pt-20'>
+      <img src={main} alt="" className='max-h-[545px] max:w-[550px] shadow-2xl' />
+
+      <div className='object-contain md:flex hidden absolute left-[50%] border-y-[10px] border-r-[10px] border-lightBlue h-[650px] w-[650px] mr-10'>
+
+      </div>
+
+
+      {/* <div className='w-full md:w-[45%] md:h-[900px] md:pt-0 pt-20'>
         <img src={bg1} alt="bg" className='object-cover md:h-[900px] w-full' />
       </div>
 
       <div className={`absolute md:left-[50%]`}>
-        <img src={main} alt="" className='relative object-contain max-h-[445px] max:w-[450px] sm:shadow-[0px_-6px_25px_rgba(0,0,0,0.3)] ss:px-0 px-10' />
+        <img src={main} alt="" className='relative object-contain max-h-[545px] max:w-[550px] shadow-2xl ss:px-0 px-10' />
       </div>
 
-      <div className='object-contain md:flex hidden absolute left-[50%] border-y-[10px] border-r-[10px] border-lightBlue h-[563px] w-[512px] mr-10'></div>
+      <div className='object-contain md:flex hidden absolute left-[50%] border-y-[10px] border-r-[10px] border-lightBlue h-[563px] w-[512px] mr-10'></div> */}
 
       {/* xs:h-[300px] xs:w-[300px] h-[250px] w-[250px] */}
 

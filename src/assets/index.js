@@ -10,11 +10,12 @@ import twitter from "./twitter.png";
 import instagram from "./instagram.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import bg1 from "./bg1.jpg";
 
 /*hero*/
 import exclamation from "./exclamation.png";
 import main from "./main.jpg";
+import bg1 from "./bg1.jpg";
+import background from "./Background.png";
 
 /*features*/
 import feature1 from "./spa.jpg";
@@ -86,5 +87,6 @@ export{
     close,
     bg1,
     bg2,
+    background,
 };
 

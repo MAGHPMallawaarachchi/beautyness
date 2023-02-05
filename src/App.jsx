@@ -1,6 +1,7 @@
 import styles from './style';
 
 import {Navbar, Hero, AboutUs, Benefits, Blog, Discount, Features, Footer, Testimonials, Services} from './components';
+import {background} from './assets';
 
 const App = () => (
   <div className='bg-white w-full overflow-hidden'>
@@ -10,7 +11,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`${styles.flexStart} bg-lightBlue`}>
+    <div className={`${styles.flexStart} md:bg-[url('./assets/Background.png')] bg-[url('./assets/Background2.jpg')] min-h-[900px] bg-cover bg-center bg-no-repeat`}>
       <div className={`${styles.flexCenter} ${styles.boxWidth}`}>
         <Hero/>
       </div>
