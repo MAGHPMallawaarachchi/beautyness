@@ -29,20 +29,6 @@ const Hero = () => (
 
       </div>
 
-
-      {/* <div className='w-full md:w-[45%] md:h-[900px] md:pt-0 pt-20'>
-        <img src={bg1} alt="bg" className='object-cover md:h-[900px] w-full' />
-      </div>
-
-      <div className={`absolute md:left-[50%]`}>
-        <img src={main} alt="" className='relative object-contain max-h-[545px] max:w-[550px] shadow-2xl ss:px-0 px-10' />
-      </div>
-
-      <div className='object-contain md:flex hidden absolute left-[50%] border-y-[10px] border-r-[10px] border-lightBlue h-[563px] w-[512px] mr-10'></div> */}
-
-      {/* xs:h-[300px] xs:w-[300px] h-[250px] w-[250px] */}
-
-
   </section>
 )
 
