@@ -62,7 +62,7 @@ const App = () => {
                 <ul className='list-none gap-3 font-manrope font-[18px] text-white flex flex-col text-center'>
                   {navLinks.map((nav, index) => (
                     <li key={nav.id}>
-                      <Link to={`#${nav.id}`}>{nav.title}</Link>
+                      <Link to={nav.link}>{nav.title}</Link>
                     </li>
                   ))}
                 </ul>
