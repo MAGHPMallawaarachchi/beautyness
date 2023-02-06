@@ -73,11 +73,11 @@ const App = () => {
       </div>
     </div>
     <Routes>
-      <Route path="/beautyness" element={<Home/>}/>
-      <Route path="/beautyness/about" element={<About/>}/>
-      <Route path="/beautyness/services" element={<Services/>}/>
-      <Route path="/beautyness/contact" element={<Contact/>}/>
-      <Route path="/beautyness/error" element={<ErrorPage/>}/>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/services" element={<Services/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/error" element={<ErrorPage/>}/>
     </Routes>
     </>
 
