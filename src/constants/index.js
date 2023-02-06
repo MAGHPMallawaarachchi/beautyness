@@ -9,17 +9,17 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-    link: "/about",
+    link: "/beautyness/about",
   },
   {
     id: "services",
     title: "Services",
-    link: "/services",
+    link: "/beautyness/services",
   },
   {
     id: "contact",
     title: "Contact",
-    link: "/contact",
+    link: "/beautyness/contact",
   },
 ];
 
