@@ -80,7 +80,7 @@ const Contact = () => {
 
               <img src={book} alt="book" width="24px" height="24px" className='absolute mt-[16.6rem] ml-3' />
 
-              <textarea id="note" name="note" className={`border border-dullBlue2 w-full placeholder:${styles.placeholder} placeholder:text-dullBlack placeholder:pt-4`} placeholder='Any Note For Us' rows="4" ></textarea>
+              <textarea id="note" name="note" className={`border border-dullBlue2 w-full placeholder:${styles.placeholder} placeholder:text-dullBlack pt-4`} placeholder='Any Note For Us' rows="4" ></textarea>
 
               <img src={edit} alt="edit" width="24px" height="24px" className='absolute mt-[21.3rem] ml-3' />
               
