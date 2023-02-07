@@ -11,7 +11,7 @@ const Home = () => {
                 </div>
             </div> */}
 
-            <div className={`${styles.flexStart} md:bg-[url('./assets/Background.png')] bg-[url('./assets/Background2.jpg')] min-h-[900px] bg-cover bg-center bg-no-repeat`}>
+            <div className={`${styles.flexStart} md:bg-[url('./assets/Background.png')] bg-[url('./assets/Background2.jpg')]  bg-cover bg-center bg-no-repeat`}>
                 <div className={`${styles.flexCenter} ${styles.boxWidth}`}>
                     <Hero />
                 </div>

@@ -10,7 +10,7 @@ const AboutUsCard = ({id, image, title}) =>(
 )
 
 const AboutUs = () => (
-  <section id='AboutUs' className={`flex md:flex-row flex-col bg-lightBlue ${styles.paddingX} ${styles.paddingY} md:gap-[119px] gap-[50px] justify-center items-center`}>
+  <section id='AboutUs' className={`flex md:flex-row flex-col bg-lightBlue ${styles.paddingX} ${styles.paddingY} md:gap-[119px] sm:gap-[50px] gap-[20px] justify-center items-center`}>
     
     <div className='flex flex-col gap-[16px] md:pb-0 pb-8'>
       <p className='font-manrope uppercase sm:text-[15px] text-[12px] font-semibold text-dullBlue2 leading-[154.5%] tracking-[0.1em]'>about us</p>
