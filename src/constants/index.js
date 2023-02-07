@@ -1,4 +1,4 @@
-import { customer1, customer2, facebook, instagram, linkedin, twitter, feature1, feature2, feature3, icon1, icon2, icon3  } from "../assets";
+import { customer1, customer2, facebook, instagram, linkedin, twitter, feature1, feature2, feature3, icon1, icon2, icon3, git1, git2, git3  } from "../assets";
 
 export const navLinks = [
   {
@@ -206,21 +206,24 @@ export const benefits = [
     },
 ];
 
-export const stats = [
+export const GetInTouch = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    id: "git-1",
+    icon: git1,
+    title: "Visit Us",
+    sub: "NO.09a, Downtown, SAN DIEAGO, USA",
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: "git-2",
+    icon: git2,
+    title: "Drop Us",
+    sub: "support@beautyness.com",
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    id: "git-3",
+    icon: git3,
+    title: "Call Us",
+    sub: "Call: 1-800-123-9999",
   },
 ];
 

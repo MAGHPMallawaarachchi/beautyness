@@ -5,12 +5,6 @@ import {Hero, AboutUs, Benefits, Blog, Discount, Features, Footer, Testimonials,
 const Home = () => {
     return (
         <div className='bg-white w-full overflow-hidden'>
-            {/* <div className={`sm:px-16 px-6 ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <Navbar />
-                </div>
-            </div> */}
-
             <div className={`${styles.flexStart} md:bg-[url('./assets/Background.png')] bg-[url('./assets/Background2.jpg')]  bg-cover bg-center bg-no-repeat`}>
                 <div className={`${styles.flexCenter} ${styles.boxWidth}`}>
                     <Hero />
@@ -29,7 +23,6 @@ const Home = () => {
                     <Footer />
                 </div>
             </div>
-
         </div>
     )
 }

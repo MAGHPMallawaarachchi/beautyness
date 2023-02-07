@@ -2,11 +2,19 @@ const styles = {
     boxWidth: "xl:max-w-[100%] w-full",
   
     heading1: "font-playfair_display font-bold text-[40px] ss:text-[70px] text-dullBlack tracking-[-0.01em] w-full leading-[115%]",
+
+    headingWhite: "font-playfair_display font-bold text-[25px] ss:text-[55px] text-white tracking-[-0.01em] w-full leading-[115%] text-center",
+
     heading2: "font-playfair_display font-bold text-[25px] ss:text-[45px] text-dullBlack tracking-[-0.01em] w-full leading-[130%]",
 
-    paragraph: "font-manrope font-normal text-dimWhite text-[12px] ss:text-[19px] text-[14px] leading-[170%]",
+    paragraph: "font-manrope font-normal text-dimWhite ss:text-[19px] text-[14px] leading-[170%]",
 
     buttonText: "text-white font-manrope font-semibold uppercase ss:text-[14px] text-[9px] tracking-[0.25em] leading-[125%]",
+
+    SmallHeading: "text-white font-manrope uppercase ss:text-[15px] text-[12px] tracking-[0.25em] leading-[125%]",
+    SmallHeading2: "font-manrope uppercase sm:text-[15px] text-[12px] font-semibold text-dullBlue2 leading-[154.5%] tracking-[0.1em]",
+
+    placeholder: "text-[19px] font-manrope leading-[160%] pl-12",
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",

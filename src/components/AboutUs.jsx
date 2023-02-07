@@ -24,7 +24,7 @@ const AboutUs = () => (
       </div>
     </div>
 
-    <div className='relative mx-8'>
+    <div className='relative mx-8 mb-4'>
       <img src={bg2} alt="" height="576px" width="500px" className='absolute object-contain left-4 bottom-4 z-10' />
       <img src={facial1} alt="" height="576px" width="500px" className='relative right-4 top-4 object-contain z-20 shadow-2xl ' />    
     </div>

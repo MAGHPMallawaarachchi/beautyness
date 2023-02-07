@@ -53,6 +53,17 @@ import update3 from "./update-3.png";
 /*footer*/
 import logo_footer from "./Logo-footer.svg";
 
+/*contact*/
+import contact from "./contact.png";
+import git1 from "./git1.png";
+import git2 from "./git2.png";
+import git3 from "./git3.png";
+import user from "./user.svg";
+import mail from "./mail.svg";
+import phone from "./phone.svg";
+import book from "./book-open.svg";
+import edit from "./edit.svg";
+
 export{
     logo,
     logo_header,
@@ -88,5 +99,15 @@ export{
     bg1,
     bg2,
     background,
+    contact,
+    git1,
+    git2,
+    git3,
+    user,
+    mail,
+    phone,
+    book,
+    edit,
+    
 };
 
