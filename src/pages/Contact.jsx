@@ -64,23 +64,23 @@ const Contact = () => {
 
             <form className='bg-white sm:p-[100px] xs:p-[50px] p-[20px] flex flex-col w-full max-w-[1019px] gap-4 shadow-xl' action='' method='POST'>
 
-              <input type="text" id="name" name="name" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack  focus:outline-none focus:border-violet-300`} placeholder='Name'/>
+              <input type="text" id="name" name="name" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack focus:outline-none focus:border-dashed focus:bg-lightBlue`} placeholder='Name'/>
 
               <img src={user} alt="user" width="24px" height="24px" className='absolute mt-5 ml-3' />
 
-              <input type="email" id="email" name="email" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack`} placeholder='Email'/>
+              <input type="email" id="email" name="email" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack focus:outline-none focus:border-dashed focus:bg-lightBlue`} placeholder='Email'/>
 
               <img src={mail} alt="mail" width="24px" height="24px" className='absolute mt-[6.35rem] ml-3' />
 
-              <input type="text" id="phone" name="phone" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack`} placeholder='Phone'/>
+              <input type="text" id="phone" name="phone" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack focus:outline-none focus:border-dashed focus:bg-lightBlue`} placeholder='Phone'/>
 
               <img src={phone} alt="phone" width="24px" height="24px" className='absolute mt-[11.4rem] ml-3' />
 
-              <input type="text" id="service" name="service" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack`} placeholder='Service You Need'/>
+              <input type="text" id="service" name="service" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack focus:outline-none focus:border-dashed focus:bg-lightBlue`} placeholder='Service You Need'/>
 
               <img src={book} alt="book" width="24px" height="24px" className='absolute mt-[16.6rem] ml-3' />
 
-              <textarea id="note" name="note" className={`border border-dullBlue2 w-full placeholder:${styles.placeholder} placeholder:text-dullBlack pt-4`} placeholder='Any Note For Us' rows="4" ></textarea>
+              <textarea id="note" name="note" className={`border border-dullBlue2 w-full placeholder:${styles.placeholder} placeholder:text-dullBlack pt-4 focus:outline-none focus:border-dashed focus:bg-lightBlue`} placeholder='Any Note For Us' rows="4" ></textarea>
 
               <img src={edit} alt="edit" width="24px" height="24px" className='absolute mt-[21.3rem] ml-3' />
               
