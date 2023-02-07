@@ -62,7 +62,7 @@ const Contact = () => {
               <p className={`${styles.paragraph} max-w-[622px]`}>Book your appointment now! Choose from a range of services, select a date and time that works best for you, and let us pamper you. Relax, we've got you covered.</p>
             </div>
 
-            <form className='bg-white p-[100px] flex flex-col w-full max-w-[1019px] gap-4 shadow-xl' action='' method='POST'>
+            <form className='bg-white sm:p-[100px] xs:p-[50px] p-[20px] flex flex-col w-full max-w-[1019px] gap-4 shadow-xl' action='' method='POST'>
 
               <input type="text" id="name" name="name" className={`border border-dullBlue2 w-full h-[65px] placeholder:${styles.placeholder} placeholder:text-dullBlack  focus:outline-none focus:border-violet-300`} placeholder='Name'/>
 
