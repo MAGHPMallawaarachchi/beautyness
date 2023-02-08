@@ -19,6 +19,7 @@ const App = () => {
     <div className='bg-white w-full overflow-hidden'>
       <div className={`sm:px-16 px-6 ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
+
           <nav className='w-full py-6 navbar flex justify-between items-center'>
 
             <div className='flex items-center gap-8'>
@@ -69,6 +70,7 @@ const App = () => {
               </div>
             </div>
           </nav>
+
         </div>
       </div>
     </div>

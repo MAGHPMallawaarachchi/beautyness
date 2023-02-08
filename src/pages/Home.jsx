@@ -1,6 +1,6 @@
 import styles from '../style';
 
-import {Hero, AboutUs, Benefits, Blog, Discount, Features, Footer, Testimonials, Services} from '../components';
+import {Hero, AboutUs, Benefits, Blog, Discount, Features, Testimonials, Services} from '../components';
 
 const Home = () => {
     return (
@@ -20,7 +20,6 @@ const Home = () => {
                     <Benefits />
                     <Discount />
                     <Blog />
-                    <Footer />
                 </div>
             </div>
         </div>
